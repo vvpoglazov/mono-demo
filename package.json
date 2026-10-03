@@ -1,0 +1,8 @@
+{
+  "name": "mono-demo-tools",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "handlebars": "4.0.11"
+  }
+}

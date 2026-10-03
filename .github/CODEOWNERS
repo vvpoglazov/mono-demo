@@ -1,0 +1,7 @@
+# Стенд VM Core: намеренное расхождение с правилами владения (org/inventory.yaml в vm-core).
+# По правилам services/b — продукт internal-tools (команда platform-demo), здесь — appsec-demo.
+# Корневой package.json — две команды. Команд GitHub у личного аккаунта нет: ссылки — только для сверки vmcore.
+*                @vvpoglazov/appsec-demo
+/services/a/     @vvpoglazov/appsec-demo
+/services/b/     @vvpoglazov/appsec-demo
+/package.json    @vvpoglazov/appsec-demo @vvpoglazov/platform-demo
